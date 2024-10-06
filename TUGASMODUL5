@@ -62,7 +62,7 @@ def main():
             else:
                 print("Buku tidak ditemukan.")
         elif pilihan == "4":
-            print("Terima kasih telah menggunakan sistem perpustakaan!")
+            print("Terima kasih telah menggunakan sistem perpustakaan kita!!")
             break
         else:
             print("Pilihan tidak valid, silakan mencoba kembali.")
