@@ -1,3 +1,4 @@
+
 class Buku:
     def __init__(self, judul, pengarang, tahun_terbit):
 
