@@ -22,7 +22,7 @@ def tambah_buku(daftar_buku):
     buku_baru = Buku(judul, pengarang, tahun)  
     daftar_buku.append(buku_baru)  
 
-def tampilkan_semua_buku(daftar_buku): 
+def tampilkan_semua_buku_tersedia(daftar_buku): 
     if not daftar_buku:
         print("Tidak ada buku yang terdaftar.")
     else:
@@ -51,7 +51,7 @@ def main():
         if pilihan == "1":
             tambah_buku(daftar_buku) 
         elif pilihan == "2":
-            tampilkan_semua_buku(daftar_buku)  
+            tampilkan_semua_buku_tersedia(daftar_buku)  
         elif pilihan == "3":
             judul_dicari = input("Masukkan judul buku yang anda cari: ")
             hasil_pencarian = cari_buku(daftar_buku, judul_dicari)  
